@@ -10,6 +10,13 @@ python3 server.py
 
 Open http://localhost:3000.
 
+## Deploy on Streamlit Cloud
+
+Create the app from this repository with `app.py` as the main file. Do not
+select `server.py` as the Streamlit entry point: it is the local HTTP-server
+version of the app. Add `GEMINI_API_KEY` in the app's Streamlit Secrets to
+enable Gemini; without it, the local demo fallback remains available.
+
 Copy `.env.example` to `.env` and add your Gemini key. The key is read only by the Python backend and is never sent to the browser.
 
 ```bash
