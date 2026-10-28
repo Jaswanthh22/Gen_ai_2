@@ -1,0 +1,66 @@
+{
+  "records": [
+    {
+      "id": "5aa8274a-a7cc-45f1-ba87-594918a456ea",
+      "type": "profile",
+      "result": {
+        "name": "jashu",
+        "headline": "final-year computer science student who builds accessible React interfaces and Python data tools",
+        "skills": [
+          "JavaScript",
+          "React",
+          "Python",
+          "SQL",
+          "Figma",
+          "communication"
+        ],
+        "experience": [
+          {
+            "title": "Intern",
+            "summary": "Completed two internships."
+          },
+          {
+            "title": "Campus Marketplace Project",
+            "summary": "Developed a campus marketplace project."
+          }
+        ],
+        "education": "Computer Science"
+      },
+      "sourcePreview": "I am jashu, a final-year computer science student who builds accessible React interfaces and Python data tools. I have completed two internships and a campus ma",
+      "createdAt": "2026-10-28T05:08:09.260556+00:00"
+    },
+    {
+      "id": "6bbef6a6-40d0-4a7d-b0c4-23e93f9080b2",
+      "type": "profile",
+      "result": {
+        "name": "sriram",
+        "headline": "final-year computer science student who builds accessible React interfaces and Python data tools.",
+        "skills": [
+          "JavaScript",
+          "React",
+          "Python",
+          "SQL",
+          "Figma",
+          "communication"
+        ],
+        "experience": [
+          {
+            "title": "Internship",
+            "summary": "Completed an internship."
+          },
+          {
+            "title": "Internship",
+            "summary": "Completed an internship."
+          },
+          {
+            "title": "Campus Marketplace Project",
+            "summary": "Developed a campus marketplace project."
+          }
+        ],
+        "education": "Not specified"
+      },
+      "sourcePreview": "I am sriram, a final-year computer science student who builds accessible React interfaces and Python data tools. I have completed two internships and a campus m",
+      "createdAt": "2026-10-28T05:09:42.558870+00:00"
+    }
+  ]
+}

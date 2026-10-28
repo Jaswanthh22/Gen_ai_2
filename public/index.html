@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TalentVerse · Career intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar"><a class="brand" href="/"><span class="brand-mark">✳</span><span>talent<span>verse</span></span></a><div class="top-meta"><span class="status-dot"></span> PRIVATE WORKSPACE <span class="divider">/</span> <span id="savedCount">0 SAVED INSIGHTS</span></div></header>
+    <main>
+      <section class="hero"><div class="eyebrow">CAREER INTELLIGENCE / 01</div><h1>Turn your next move<br><em>into a map.</em></h1><p>TalentVerse turns the words you already have — a resume, a goal, a role, or a rough interview note — into structured momentum.</p><div class="hero-rule"><span>SCHEMA-GUIDED AI</span><span>VALIDATED OUTPUT</span><span>SAVED TO YOUR VAULT</span></div></section>
+      <section class="workspace-grid">
+        <aside class="rail"><div class="rail-label">CHOOSE A LENS</div><button class="lens active" data-type="profile"><span class="num">01</span><span><strong>Profile builder</strong><small>Resume → experience graph</small></span><span class="arrow">↗</span></button><button class="lens" data-type="gap"><span class="num">02</span><span><strong>Skill-gap map</strong><small>Goal → learning milestones</small></span><span class="arrow">↗</span></button><button class="lens" data-type="match"><span class="num">03</span><span><strong>Role match</strong><small>Job description → fit score</small></span><span class="arrow">↗</span></button><button class="lens" data-type="portfolio"><span class="num">04</span><span><strong>Portfolio brief</strong><small>Interests → proof of work</small></span><span class="arrow">↗</span></button><button class="lens" data-type="interview"><span class="num">05</span><span><strong>Interview debrief</strong><small>Notes → next practice</small></span><span class="arrow">↗</span></button><div class="rail-note"><span class="lock">⌁</span><strong>Your data stays yours.</strong><br>Each approved insight is stored locally in your workspace vault.</div></aside>
+        <section class="canvas"><div class="canvas-head"><div><div class="kicker" id="modeKicker">PROFILE BUILDER</div><h2 id="modeTitle">Make your experience legible.</h2></div><span class="step-pill">STEP <b>1</b> OF 2</span></div><div class="input-card"><div class="input-top"><label for="sourceText">YOUR SOURCE MATERIAL</label><button id="sampleBtn" class="sample">USE SAMPLE ↗</button></div><textarea id="sourceText" spellcheck="true" placeholder="Paste a resume excerpt, career goal, job description, portfolio idea, or interview notes..."></textarea><div class="input-foot"><span id="charCount">0 characters</span><span class="input-hint">Text input · 20 character minimum</span></div></div><button id="analyzeBtn" class="primary"><span>Structure this input</span><span>→</span></button><div id="error" class="error" role="alert" hidden></div><div class="result-wrap" id="resultWrap" hidden><div class="result-head"><div><div class="kicker">REVIEW BEFORE SAVING</div><h3>Here’s what TalentVerse found.</h3><div id="providerNote" class="provider-note" hidden></div></div><div class="validation-badge"><span class="status-dot"></span><span id="validationText">VALIDATED</span></div></div><div id="resultContent" class="result-content"></div><div class="save-bar"><div><span class="save-icon">✓</span><span><strong>Ready for your vault</strong><small>Preview approved schema before database save.</small></span></div><button id="saveBtn" class="save">Save insight <span>↗</span></button></div></div></section>
+      </section>
+      <section class="vault"><div class="vault-head"><div><div class="kicker">YOUR VAULT</div><h2>Saved insights</h2></div><span id="vaultCount" class="count">0 RECORDS</span></div><div id="records" class="records"><div class="empty-records">No saved insights yet. Your approved analyses will appear here.</div></div></section>
+    </main>
+    <footer><span>TALENTVERSE / CSB312 MINI PROJECT 2</span><span>BUILT FOR CLARITY, NOT MORE NOISE.</span></footer>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
