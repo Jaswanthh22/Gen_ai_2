@@ -17,6 +17,19 @@ select `server.py` as the Streamlit entry point: it is the local HTTP-server
 version of the app. Add `GEMINI_API_KEY` in the app's Streamlit Secrets to
 enable Gemini; without it, the local demo fallback remains available.
 
+## Deploy on Render
+
+Use a Render **Web Service** connected to this repository and the `main`
+branch. The included `render.yaml` can also be used as a Blueprint. For a
+manual setup, use `pip install -r requirements.txt` as the build command and
+`python3 server.py` as the start command. Add `GEMINI_API_KEY` as an
+environment variable if Gemini extraction is required. Render provides the
+`PORT` value automatically; the server binds to the required public host.
+
+The JSON file is local to the service instance, so saved insights are not
+durable across instance replacement on the free plan. Use a persistent disk
+or an external database if those records must survive redeploys.
+
 Copy `.env.example` to `.env` and add your Gemini key. The key is read only by the Python backend and is never sent to the browser.
 
 ```bash
